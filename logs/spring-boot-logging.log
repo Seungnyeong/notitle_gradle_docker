@@ -1,0 +1,534 @@
+2020-09-21 13:58:39.432  INFO 9876 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 9876 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 13:58:39.449  INFO 9876 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : No active profile set, falling back to default profiles: default
+2020-09-21 13:58:39.633  INFO 9876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 13:58:39.635  INFO 9876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 13:58:42.385  INFO 9876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 13:58:42.403  INFO 9876 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 13:58:42.403  INFO 9876 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 13:58:42.948  INFO 9876 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 13:58:42.959  INFO 9876 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 13:58:42.960  INFO 9876 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3325 ms
+2020-09-21 13:58:43.711  INFO 9876 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 13:58:43.865  INFO 9876 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 13:58:44.078  INFO 9876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 13:58:44.156  INFO 9876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path '/notitle'
+2020-09-21 13:58:44.176  INFO 9876 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 6.577 seconds (JVM running for 9.747)
+2020-09-21 13:58:55.670  INFO 9876 --- [http-nio-9988-exec-2] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-21 13:58:55.671  INFO 9876 --- [http-nio-9988-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-21 13:58:55.695  INFO 9876 --- [http-nio-9988-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+2020-09-21 13:58:55.796  INFO 9876 --- [http-nio-9988-exec-2] c.i.s.n.controllers.ViewController       : test
+2020-09-21 14:22:18.382  INFO 13824 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 13824 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 14:22:18.388  INFO 13824 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 14:22:18.569  INFO 13824 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 14:22:18.570  INFO 13824 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 14:22:21.108  INFO 13824 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 14:22:21.125  INFO 13824 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 14:22:21.125  INFO 13824 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 14:22:21.516  INFO 13824 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 14:22:21.520  INFO 13824 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 14:22:21.521  INFO 13824 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2950 ms
+2020-09-21 14:22:21.600  WARN 13824 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'viewController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'test' in value "${test}"
+2020-09-21 14:22:21.603  INFO 13824 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-09-21 14:22:21.620  INFO 13824 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-21 14:22:21.640 ERROR 13824 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'viewController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'test' in value "${test}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at com.ie.snkim.notitle.NotitleApplication.main(NotitleApplication.java:14) [main/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_261]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'test' in value "${test}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	... 23 common frames omitted
+
+2020-09-21 14:23:20.216  INFO 11656 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 11656 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 14:23:20.223  INFO 11656 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 14:23:20.462  INFO 11656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 14:23:20.464  INFO 11656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 14:23:22.633  INFO 11656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 14:23:22.653  INFO 11656 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 14:23:22.654  INFO 11656 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 14:23:22.938  INFO 11656 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 14:23:22.943  INFO 11656 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 14:23:22.944  INFO 11656 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2479 ms
+2020-09-21 14:23:23.211  INFO 11656 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 14:23:23.323  INFO 11656 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 14:23:23.432  WARN 11656 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-09-21 14:23:23.458  WARN 11656 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9988 is already in use
+2020-09-21 14:23:23.460  INFO 11656 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-21 14:23:23.464  INFO 11656 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-09-21 14:23:23.485  INFO 11656 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-21 14:23:23.498 ERROR 11656 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9988 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9988 or configure this application to listen on another port.
+
+2020-09-21 14:24:55.821  INFO 12820 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 12820 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 14:24:55.827  INFO 12820 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 14:24:55.953  INFO 12820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 14:24:55.954  INFO 12820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 14:24:58.207  INFO 12820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 14:24:58.224  INFO 12820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 14:24:58.224  INFO 12820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 14:24:58.602  INFO 12820 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 14:24:58.608  INFO 12820 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 14:24:58.609  INFO 12820 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2654 ms
+2020-09-21 14:24:59.088  INFO 12820 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 14:24:59.223  INFO 12820 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 14:24:59.391  INFO 12820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 14:24:59.465  INFO 12820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path '/notitle'
+2020-09-21 14:24:59.486  INFO 12820 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 4.425 seconds (JVM running for 5.472)
+2020-09-21 14:25:03.843  INFO 12820 --- [http-nio-9988-exec-1] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-21 14:25:03.844  INFO 12820 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-21 14:25:03.852  INFO 12820 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-09-21 14:25:03.893  INFO 12820 --- [http-nio-9988-exec-1] c.i.s.n.controllers.ViewController       : test
+2020-09-21 14:25:03.893  INFO 12820 --- [http-nio-9988-exec-1] c.i.s.n.controllers.ViewController       : profiles  prod
+2020-09-21 14:25:43.299  INFO 12820 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-21 14:25:43.595  INFO 12820 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 12820 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 14:25:43.596  INFO 12820 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 14:25:44.814  INFO 12820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 14:25:44.816  INFO 12820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 14:25:44.817  INFO 12820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 14:25:44.896  INFO 12820 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 14:25:44.898  INFO 12820 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 14:25:44.899  INFO 12820 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1278 ms
+2020-09-21 14:25:44.984  INFO 12820 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 14:25:45.006  INFO 12820 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 14:25:45.121  INFO 12820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 14:25:45.143  INFO 12820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path '/notitle'
+2020-09-21 14:25:45.151  INFO 12820 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 1.704 seconds (JVM running for 51.138)
+2020-09-21 14:25:45.155  INFO 12820 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-21 14:26:43.446  INFO 13872 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 13872 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 14:26:43.450  INFO 13872 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 14:26:43.557  INFO 13872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 14:26:43.558  INFO 13872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 14:26:45.525  INFO 13872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 14:26:45.541  INFO 13872 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 14:26:45.542  INFO 13872 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 14:26:45.895  INFO 13872 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 14:26:45.899  INFO 13872 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 14:26:45.900  INFO 13872 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2341 ms
+2020-09-21 14:26:46.226  INFO 13872 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 14:26:46.350  INFO 13872 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 14:26:46.455  INFO 13872 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 14:26:46.508  INFO 13872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path '/notitle'
+2020-09-21 14:26:46.530  INFO 13872 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 3.831 seconds (JVM running for 4.819)
+2020-09-21 14:27:07.781  INFO 5128 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 5128 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 14:27:07.785  INFO 5128 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 14:27:07.885  INFO 5128 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 14:27:07.885  INFO 5128 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 14:27:09.762  INFO 5128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 14:27:09.778  INFO 5128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 14:27:09.779  INFO 5128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 14:27:10.030  INFO 5128 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 14:27:10.034  INFO 5128 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 14:27:10.035  INFO 5128 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2149 ms
+2020-09-21 14:27:10.291  INFO 5128 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 14:27:10.384  INFO 5128 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 14:27:10.483  INFO 5128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 14:27:10.531  INFO 5128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path '/notitle'
+2020-09-21 14:27:10.545  INFO 5128 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 3.505 seconds (JVM running for 4.37)
+2020-09-21 14:27:13.865  INFO 5128 --- [http-nio-9988-exec-1] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-21 14:27:13.866  INFO 5128 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-21 14:27:13.873  INFO 5128 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-09-21 14:27:13.930  INFO 5128 --- [http-nio-9988-exec-1] c.i.s.n.controllers.ViewController       : test
+2020-09-21 14:27:13.931  INFO 5128 --- [http-nio-9988-exec-1] c.i.s.n.controllers.ViewController       : profiles  dev
+2020-09-21 14:47:34.095  INFO 7796 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 7796 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 14:47:34.100  INFO 7796 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 14:47:34.195  INFO 7796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 14:47:34.195  INFO 7796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 14:47:36.280  INFO 7796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 14:47:36.298  INFO 7796 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 14:47:36.298  INFO 7796 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 14:47:36.612  INFO 7796 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 14:47:36.617  INFO 7796 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 14:47:36.617  INFO 7796 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2421 ms
+2020-09-21 14:47:36.910  INFO 7796 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 14:47:37.032  INFO 7796 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 14:47:37.153  INFO 7796 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 14:47:37.213  INFO 7796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path '/notitle'
+2020-09-21 14:47:37.235  INFO 7796 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 3.825 seconds (JVM running for 4.601)
+2020-09-21 15:07:35.460  INFO 9324 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 9324 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 15:07:35.468  INFO 9324 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 15:07:35.600  INFO 9324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 15:07:35.601  INFO 9324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 15:07:38.126  INFO 9324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 15:07:38.151  INFO 9324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 15:07:38.152  INFO 9324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 15:07:38.548  INFO 9324 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 15:07:38.553  INFO 9324 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 15:07:38.554  INFO 9324 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2952 ms
+2020-09-21 15:07:38.978  INFO 9324 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 15:07:39.108  INFO 9324 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 15:07:39.230  INFO 9324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 15:07:39.272  WARN 9324 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9988 is already in use
+2020-09-21 15:07:39.275  INFO 9324 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-21 15:07:39.284  INFO 9324 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-09-21 15:07:39.319  INFO 9324 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-21 15:07:39.352 ERROR 9324 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9988 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9988 or configure this application to listen on another port.
+
+2020-09-21 15:08:23.393  INFO 16324 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 16324 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 15:08:23.397  INFO 16324 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 15:08:23.503  INFO 16324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 15:08:23.504  INFO 16324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 15:08:25.647  INFO 16324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 15:08:25.666  INFO 16324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 15:08:25.667  INFO 16324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 15:08:25.975  INFO 16324 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 15:08:25.981  INFO 16324 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 15:08:25.982  INFO 16324 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2477 ms
+2020-09-21 15:08:26.310  INFO 16324 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 15:08:26.421  INFO 16324 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 15:08:26.537  INFO 16324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 15:08:26.598  INFO 16324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path '/notitle'
+2020-09-21 15:08:26.617  INFO 16324 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 3.967 seconds (JVM running for 4.847)
+2020-09-21 15:08:31.956  INFO 16324 --- [http-nio-9988-exec-1] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-21 15:08:31.957  INFO 16324 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-21 15:08:31.966  INFO 16324 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-09-21 15:08:32.002  INFO 16324 --- [http-nio-9988-exec-1] c.i.s.n.controllers.ViewController       : test
+2020-09-21 15:08:32.003  INFO 16324 --- [http-nio-9988-exec-1] c.i.s.n.controllers.ViewController       : profiles  dev
+2020-09-21 15:15:10.096  INFO 3628 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 3628 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 15:15:10.101  INFO 3628 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 15:15:10.216  INFO 3628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 15:15:10.217  INFO 3628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 15:15:12.551  INFO 3628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 15:15:12.573  INFO 3628 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 15:15:12.573  INFO 3628 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 15:15:12.876  INFO 3628 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 15:15:12.880  INFO 3628 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 15:15:12.881  INFO 3628 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2664 ms
+2020-09-21 15:15:13.155  INFO 3628 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 15:15:13.256  INFO 3628 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 15:15:13.361  INFO 3628 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 15:15:13.427  INFO 3628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path '/notitle'
+2020-09-21 15:15:13.441  INFO 3628 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 4.272 seconds (JVM running for 5.275)
+2020-09-21 15:47:09.552  INFO 15388 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 15388 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 15:47:09.560  INFO 15388 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 15:47:09.688  INFO 15388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 15:47:09.689  INFO 15388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 15:47:11.997  INFO 15388 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 15:47:12.014  INFO 15388 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 15:47:12.015  INFO 15388 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 15:47:12.320  INFO 15388 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 15:47:12.327  INFO 15388 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 15:47:12.328  INFO 15388 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2639 ms
+2020-09-21 15:47:12.584  INFO 15388 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 15:47:12.689  INFO 15388 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 15:47:12.795  INFO 15388 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 15:47:12.829  WARN 15388 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9988 is already in use
+2020-09-21 15:47:12.831  INFO 15388 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-21 15:47:12.836  INFO 15388 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-09-21 15:47:12.854  INFO 15388 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-21 15:47:12.867 ERROR 15388 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9988 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9988 or configure this application to listen on another port.
+
+2020-09-21 15:47:34.997  INFO 11384 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 11384 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 15:47:35.002  INFO 11384 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 15:47:35.091  INFO 11384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 15:47:35.091  INFO 11384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 15:47:36.924  INFO 11384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9987 (http)
+2020-09-21 15:47:36.948  INFO 11384 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 15:47:36.948  INFO 11384 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 15:47:37.235  INFO 11384 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 15:47:37.238  INFO 11384 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 15:47:37.239  INFO 11384 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2147 ms
+2020-09-21 15:47:37.602  INFO 11384 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 15:47:37.716  INFO 11384 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 15:47:37.847  INFO 11384 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 15:47:37.899  INFO 11384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9987 (http) with context path '/notitle'
+2020-09-21 15:47:37.915  INFO 11384 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 3.593 seconds (JVM running for 4.338)
+2020-09-21 15:47:50.867  INFO 11384 --- [http-nio-9987-exec-1] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-21 15:47:50.869  INFO 11384 --- [http-nio-9987-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-21 15:47:50.879  INFO 11384 --- [http-nio-9987-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-09-21 15:47:50.936  INFO 11384 --- [http-nio-9987-exec-1] c.i.s.n.controllers.ViewController       : test
+2020-09-21 15:47:50.937  INFO 11384 --- [http-nio-9987-exec-1] c.i.s.n.controllers.ViewController       : profiles  prod
+2020-09-21 15:49:18.079  INFO 9348 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 9348 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 15:49:18.084  INFO 9348 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 15:49:18.187  INFO 9348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 15:49:18.188  INFO 9348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 15:49:20.451  INFO 9348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 15:49:20.473  INFO 9348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 15:49:20.474  INFO 9348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 15:49:20.787  INFO 9348 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 15:49:20.793  INFO 9348 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 15:49:20.793  INFO 9348 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2605 ms
+2020-09-21 15:49:21.142  INFO 9348 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 15:49:21.257  INFO 9348 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 15:49:21.389  INFO 9348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 15:49:21.434  WARN 9348 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9988 is already in use
+2020-09-21 15:49:21.436  INFO 9348 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-21 15:49:21.443  INFO 9348 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-09-21 15:49:21.470  INFO 9348 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-21 15:49:21.485 ERROR 9348 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9988 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9988 or configure this application to listen on another port.
+
+2020-09-21 15:50:12.619  INFO 17092 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 17092 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 15:50:12.622  INFO 17092 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 15:50:12.711  INFO 17092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 15:50:12.712  INFO 17092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 15:50:14.603  INFO 17092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 15:50:14.617  INFO 17092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 15:50:14.617  INFO 17092 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 15:50:14.893  INFO 17092 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 15:50:14.900  INFO 17092 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 15:50:14.901  INFO 17092 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2188 ms
+2020-09-21 15:50:15.168  INFO 17092 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 15:50:15.292  INFO 17092 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 15:50:15.410  INFO 17092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 15:50:15.482  INFO 17092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path '/notitle'
+2020-09-21 15:50:15.500  INFO 17092 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 3.516 seconds (JVM running for 4.327)
+2020-09-21 15:50:35.472  INFO 16256 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 16256 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 15:50:35.477  INFO 16256 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 15:50:35.590  INFO 16256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 15:50:35.591  INFO 16256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 15:50:37.819  INFO 16256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9987 (http)
+2020-09-21 15:50:37.836  INFO 16256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 15:50:37.836  INFO 16256 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 15:50:38.136  INFO 16256 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 15:50:38.142  INFO 16256 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 15:50:38.142  INFO 16256 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2551 ms
+2020-09-21 15:50:38.444  INFO 16256 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 15:50:38.554  INFO 16256 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 15:50:38.671  INFO 16256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 15:50:38.731  INFO 16256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9987 (http) with context path '/notitle'
+2020-09-21 15:50:38.745  INFO 16256 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 3.984 seconds (JVM running for 4.707)
+2020-09-21 15:51:52.672  INFO 6720 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 6720 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 15:51:52.677  INFO 6720 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 15:51:52.784  INFO 6720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 15:51:52.784  INFO 6720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 15:51:54.946  INFO 6720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 15:51:54.967  INFO 6720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 15:51:54.968  INFO 6720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 15:51:55.278  INFO 6720 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 15:51:55.282  INFO 6720 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 15:51:55.283  INFO 6720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2499 ms
+2020-09-21 15:51:55.587  INFO 6720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 15:51:55.697  INFO 6720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 15:51:55.818  INFO 6720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 15:51:55.873  INFO 6720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path '/notitle'
+2020-09-21 15:51:55.891  INFO 6720 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 3.925 seconds (JVM running for 4.791)
+2020-09-21 15:52:08.466  INFO 6720 --- [http-nio-9988-exec-1] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-21 15:52:08.467  INFO 6720 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-21 15:52:08.477  INFO 6720 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-09-21 15:52:08.538  INFO 6720 --- [http-nio-9988-exec-1] c.i.s.n.controllers.ViewController       : profiles  prod
+2020-09-21 16:01:35.630  INFO 9544 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 9544 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 16:01:35.636  INFO 9544 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 16:01:35.740  INFO 9544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 16:01:35.741  INFO 9544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 16:01:37.652  INFO 9544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9987 (http)
+2020-09-21 16:01:37.668  INFO 9544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 16:01:37.668  INFO 9544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 16:01:37.941  INFO 9544 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 16:01:37.948  INFO 9544 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 16:01:37.949  INFO 9544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2208 ms
+2020-09-21 16:01:38.201  INFO 9544 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 16:01:38.305  INFO 9544 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 16:01:38.409  INFO 9544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 16:01:38.458  INFO 9544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9987 (http) with context path '/notitle'
+2020-09-21 16:01:38.472  INFO 9544 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 3.572 seconds (JVM running for 4.426)
+2020-09-21 16:01:54.303  INFO 9544 --- [http-nio-9987-exec-1] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-21 16:01:54.304  INFO 9544 --- [http-nio-9987-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-21 16:01:54.313  INFO 9544 --- [http-nio-9987-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-09-21 16:01:54.368  INFO 9544 --- [http-nio-9987-exec-1] c.i.s.n.controllers.ViewController       : profiles  dev
+2020-09-21 16:08:03.598  INFO 17636 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 17636 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 16:08:03.604  INFO 17636 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 16:08:03.713  INFO 17636 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 16:08:03.714  INFO 17636 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 16:08:06.143  INFO 17636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9987 (http)
+2020-09-21 16:08:06.163  INFO 17636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 16:08:06.163  INFO 17636 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 16:08:06.510  INFO 17636 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 16:08:06.515  INFO 17636 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 16:08:06.515  INFO 17636 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2801 ms
+2020-09-21 16:08:07.012  INFO 17636 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 16:08:07.225  INFO 17636 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 16:08:07.449  INFO 17636 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 16:08:07.575  INFO 17636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9987 (http) with context path '/notitle'
+2020-09-21 16:08:07.602  INFO 17636 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 5.023 seconds (JVM running for 6.022)
+2020-09-21 16:09:40.037  INFO 17636 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-21 16:09:51.361  INFO 17636 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 17636 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 16:09:51.362  INFO 17636 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 16:09:52.267  INFO 17636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9987 (http)
+2020-09-21 16:09:52.270  INFO 17636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 16:09:52.272  INFO 17636 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 16:09:52.353  INFO 17636 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 16:09:52.356  INFO 17636 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 16:09:52.356  INFO 17636 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 984 ms
+2020-09-21 16:09:52.436  INFO 17636 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 16:09:52.457  INFO 17636 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 16:09:52.496  INFO 17636 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 16:09:52.513  INFO 17636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9987 (http) with context path '/notitle'
+2020-09-21 16:09:52.519  INFO 17636 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 1.277 seconds (JVM running for 110.939)
+2020-09-21 16:09:52.521  INFO 17636 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-21 16:12:12.375  INFO 17636 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-21 16:12:12.830  INFO 17636 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 17636 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 16:12:12.830  INFO 17636 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 16:12:13.316  INFO 17636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 16:12:13.317  INFO 17636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 16:12:13.318  INFO 17636 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 16:12:13.407  INFO 17636 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 16:12:13.408  INFO 17636 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 16:12:13.409  INFO 17636 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 572 ms
+2020-09-21 16:12:13.487  INFO 17636 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 16:12:13.508  INFO 17636 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 16:12:13.547  INFO 17636 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 16:12:13.559  WARN 17636 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9988 is already in use
+2020-09-21 16:12:13.561  INFO 17636 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-21 16:12:13.561  INFO 17636 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-09-21 16:12:13.568  INFO 17636 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-21 16:12:13.571 ERROR 17636 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9988 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9988 or configure this application to listen on another port.
+
+2020-09-21 16:22:33.719  INFO 14008 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 14008 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 16:22:33.725  INFO 14008 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 16:22:33.842  INFO 14008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 16:22:33.843  INFO 14008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 16:22:35.995  INFO 14008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9987 (http)
+2020-09-21 16:22:36.011  INFO 14008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 16:22:36.012  INFO 14008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 16:22:36.292  INFO 14008 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 16:22:36.297  INFO 14008 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 16:22:36.298  INFO 14008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2455 ms
+2020-09-21 16:22:36.556  INFO 14008 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 16:22:36.669  INFO 14008 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 16:22:36.774  INFO 14008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 16:22:36.830  INFO 14008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9987 (http) with context path '/notitle'
+2020-09-21 16:22:36.847  INFO 14008 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 3.938 seconds (JVM running for 4.715)
+2020-09-21 16:22:56.742  INFO 14008 --- [http-nio-9987-exec-2] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-21 16:22:56.743  INFO 14008 --- [http-nio-9987-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-21 16:22:56.763  INFO 14008 --- [http-nio-9987-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2020-09-21 16:22:56.800  INFO 14008 --- [http-nio-9987-exec-2] c.i.s.n.controllers.ViewController       : profiles  dev
+2020-09-21 16:49:00.285  INFO 16452 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 16452 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 16:49:00.291  INFO 16452 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 16:49:00.395  INFO 16452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 16:49:00.396  INFO 16452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 16:49:02.729  INFO 16452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-09-21 16:49:02.750  INFO 16452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 16:49:02.750  INFO 16452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 16:49:03.220  INFO 16452 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 16:49:03.236  INFO 16452 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 16:49:03.238  INFO 16452 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2842 ms
+2020-09-21 16:49:03.606  INFO 16452 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 16:49:03.722  INFO 16452 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 16:49:03.866  INFO 16452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 16:49:03.926  INFO 16452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path '/notitle'
+2020-09-21 16:49:03.944  INFO 16452 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 4.478 seconds (JVM running for 5.331)
+2020-09-21 16:49:11.647  INFO 16452 --- [http-nio-9988-exec-1] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-21 16:49:11.648  INFO 16452 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-21 16:49:11.656  INFO 16452 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-09-21 16:49:11.713  INFO 16452 --- [http-nio-9988-exec-1] c.i.s.n.controllers.ViewController       : profiles  prod
+2020-09-21 16:52:15.114  INFO 21276 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Starting NotitleApplication on DESKTOP-C2NTEI1 with PID 21276 (C:\Users\mello\IdeaProjects\notitle\build\classes\java\main started by snkim in C:\Users\mello\IdeaProjects\notitle)
+2020-09-21 16:52:15.123  INFO 21276 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : The following profiles are active: core
+2020-09-21 16:52:15.297  INFO 21276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 16:52:15.298  INFO 21276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-21 16:52:17.685  INFO 21276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9987 (http)
+2020-09-21 16:52:17.702  INFO 21276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-21 16:52:17.703  INFO 21276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-21 16:52:18.046  INFO 21276 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-21 16:52:18.052  INFO 21276 --- [restartedMain] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring embedded WebApplicationContext
+2020-09-21 16:52:18.054  INFO 21276 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2755 ms
+2020-09-21 16:52:18.359  INFO 21276 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 16:52:18.491  INFO 21276 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-21 16:52:18.612  INFO 21276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-21 16:52:18.672  INFO 21276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9987 (http) with context path '/notitle'
+2020-09-21 16:52:18.693  INFO 21276 --- [restartedMain] com.ie.snkim.notitle.NotitleApplication  : Started NotitleApplication in 4.266 seconds (JVM running for 5.022)
+2020-09-21 16:52:24.723  INFO 21276 --- [http-nio-9987-exec-1] o.a.c.c.C.[.[localhost].[/notitle]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-21 16:52:24.723  INFO 21276 --- [http-nio-9987-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-21 16:52:24.733  INFO 21276 --- [http-nio-9987-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-09-21 16:52:24.774  INFO 21276 --- [http-nio-9987-exec-1] c.i.s.n.controllers.ViewController       : profiles  dev
